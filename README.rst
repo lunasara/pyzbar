@@ -1,7 +1,7 @@
 pyzbar
 ======
 
-Sara: I've made a few updates with some of the pull request that have been open forever in the original repo.
+Sara: updated with https://github.com/NaturalHistoryMuseum/pyzbar/pull/39 so it returns ordered corners.
 
 ======
 
