@@ -1,6 +1,10 @@
 pyzbar
 ======
 
+Sara: I've made a few updates with some of the pull request that have been open forever in the original repo.
+
+======
+
 .. image:: https://img.shields.io/badge/python-2.7%2C%203.5%2C%203.6%2C%203.7%2C%203.8%2C%203.9%2C%203.10-blue.svg
     :target: https://github.com/NaturalHistoryMuseum/pyzbar
 
