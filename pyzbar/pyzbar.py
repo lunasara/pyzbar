@@ -115,13 +115,13 @@ def _decode_symbols(symbols):
             symbol_type = symbol_type.name
 
         quality = zbar_symbol_get_quality(symbol)
-        polygon = convex_hull(
+        polygon = list(map(Point._make,(
             (
                 zbar_symbol_get_loc_x(symbol, index),
                 zbar_symbol_get_loc_y(symbol, index)
             )
             for index in _RANGEFN(zbar_symbol_get_loc_size(symbol))
-        )
+        )))
 
         if zbar_symbol_get_orientation:
             orientation = ZBarOrientation(zbar_symbol_get_orientation(symbol)).name
